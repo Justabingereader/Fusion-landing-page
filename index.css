@@ -721,12 +721,14 @@ hr {
         cursor: pointer;
         background-color: white;
         margin-top: -18vh;
-        margin-right: 2vh;
+        margin-right: 1vh;
         padding-top: 10vh;
         width: 100vw;
     }
-    #toggle {
-        display: none;
+    .toggle {
+        display: block;
+        margin-left: -10vw;
+        padding-right: 30vw;
     }
     .toggle p {
         font-size: 10vw;
@@ -783,6 +785,8 @@ hr {
     }
     .main-head {
         width: /*500px;*/ 41.67vw;
+        margin-top: 5vh;
+        margin-left: 10vw;
     }
     .main-button1 {
         color: white;
@@ -976,7 +980,7 @@ hr {
     .container3-content {
         margin-top: /*40px;*/ 5vh;
         margin-left: /*40px;*/ 9.33vw;
-        width: /*600px;*/ 50vw;
+        width: /*600px;*/ 80vw;
     }
     .container3-image img {
         margin-left: /*10px;*/ 0.833vw;
@@ -1029,7 +1033,7 @@ hr {
         display: block;
         width: 100%;
         height: /*300px;*/ 37.5vh;
-        margin-left: /*40px;*/ 3.333vw;
+        margin-left: /*40px;*/ 10vw;
         margin-top: /*60px;*/ 7.5vh;
     }
     .features1-body {
@@ -1037,7 +1041,7 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         width: 80%;
-        margin-left: /*80px;*/ 6.667vw;
+        margin-left: /*80px;*/ 15vw;
         margin-bottom: /*20px;*/ 2.5vh;
         height: /*120px;*/ 15vh;
         padding: 15px;
@@ -1054,7 +1058,7 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         width: 80%;
-        margin-left: /*80px;*/ 6.667vw;
+        margin-left: /*80px;*/ 15vw;
         margin-bottom: /*20px;*/ 2.5vh;
         height: /*120px;*/ 15vh;
         padding: 15px;
@@ -1080,10 +1084,10 @@ hr {
     .social-handle {
         width: /*20px;*/ 7.67vw;
         height: /*20px;*/ 10.5vh;
-        margin: 10px;
+        margin: 0 2.5vw;
     }
     .team1-image img {
-        height: /*200px;*/ 25vh;
+        height: /*200px;*/ 30vh;
         width: 90%;
         background-color: #eeeeee;
     }
@@ -1099,7 +1103,7 @@ hr {
         text-align: center;
     }
     .team-line {
-        margin-left: /*80px;*/ 6.667vw;
+        margin-left: /*80px;*/ 15vw;
     }
     .team1 {
         display: flex;
@@ -1108,9 +1112,10 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         margin-bottom: /*20px;*/ 2.5vh;
+        height: 37vh;
     }
     .team1-body {
-        width: 70%;
+        width: 80%;
     }
     .team1-body h4 {
         color: #444444;
@@ -1125,6 +1130,7 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         margin-bottom: /*20px;*/ 2.5vh;
+        height: 37vh;
     }
     .team3 {
         display: flex;
@@ -1133,6 +1139,7 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         margin-bottom: /*20px;*/ 2.5vh;
+        height: 37vh;
     }
     .team4 {
         display: flex;
@@ -1141,11 +1148,13 @@ hr {
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
         margin-bottom: /*20px;*/ 2.5vh;
+        height: 37vh;
     }
     .container5 {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: -5vh;
     }
     .container6 {
         display: flex;
@@ -1164,17 +1173,17 @@ hr {
     }
     .pricing {
         text-align: center;
-        margin-top: /*40px;*/ 5vh;
+        margin-top: /*40px;*/ -35vh;
         margin-bottom: 1px;
     }
     .pricing1 {
-        width: /*250px;*/ 29.833vw;
+        width: /*250px;*/ 40vw;
         border: 1px solid #dddddd;
         box-shadow:1px 1px 4px #cccccc;
-        margin-left: /*100px;*/ 8.333vw;
-        margin-bottom: /*20px;*/ 2.5vh;
+        margin-left: /*100px;*/ 30vw;
+        margin-bottom: /*20px;*/ 5vh;
         text-align: center;
-        height: /*500px;*/ 77.5vh;
+        height: /*500px;*/ 75vh;
         border-radius: 10px;
     }
     .amount {
@@ -1192,7 +1201,7 @@ hr {
         border-radius: 15px;
         margin-left: /*20px;*/ 1.667vw;
         margin-right: /*20px;*/ 1.667vw;
-        margin-top: /*25px;*/ 3.125vh;
+        margin-top: /*25px;*/ 1vh;
         height: /*30px;*/ 5.5vh;
         width: /*130px;*/ 13.833vw;
     }
@@ -1211,13 +1220,13 @@ hr {
         background-color: rgba(223, 26, 102, 0.7);
         flex-wrap: wrap;
         height: /*1100px;*/ 155.5vh;
-        width:78vw;
+        width:80vw;
         margin-left: /*20px;*/ 2vw;
         padding-right: /*60px;*/ 15vw;
     }
     .input1 {
         background-color: white;
-        width: 80%;
+        width: 900vw;
         height: /*300px;*/ 43.5vh;
         margin-left: /*70px;*/ 17.833vw;
         text-align: center;
@@ -1316,7 +1325,7 @@ hr {
     .contact-container {
         background-color: rgb(240, 240, 240);;
         height: /*900px;*/ 112.5vh;
-        width: 80%;
+        width: 100%;
         margin-left: /*20px;*/ 1.667vw;
         padding-right: /*70px;*/ 15.83vw;
     }
@@ -1329,6 +1338,7 @@ hr {
         width: 80vw;
         margin-top: 15px;
         height: /*300px;*/ 37.5vh;
+        margin-left: 5vw;
     }
     .container9 {
         display: flex;
@@ -1341,22 +1351,22 @@ hr {
         background-color: white;
         height: /*20px;*/ 2.5vh;
         color: #999999;
-        width: /*175px;*/ 29vw;
-        margin-right: /*5px;*/ 2vw;
+        width: /*175px;*/ 40vw;
+        margin-right: /*5px;*/ 2.5vw;
         border: 1px solid white;
     }
     .form-email {
         background-color: white;
         height: /*20px;*/ 2.5vh;
         color: #999999;
-        width: /*175px;*/ 29vw;
+        width: /*175px;*/ 40vw;
         border: 1px solid white;
     }
     .form-subject {
         background-color: white;
         height: /*20px;*/ 2.5vh;
         color: #999999;
-        width: /*370px;*/ 62vw;
+        width: /*370px;*/ 85vw;
         margin-top: /*25px;*/ 3.125vh;
         border: 1px solid white;
     }
@@ -1364,7 +1374,7 @@ hr {
         background-color: white;
         padding-bottom: /*175px;*/ 21.875vh;
         color: #999999;
-        width: /*370px;*/ 62vw;
+        width: /*370px;*/ 85vw;
         margin-top: /*25px;*/ 3.125vh;
         font-size: 12;
         border: 1px solid white;
@@ -1401,7 +1411,7 @@ hr {
         margin-top: /*100px;*/ 12.5vh;
     }
     #footer-image {
-        width: /*200px;*/ 16.667vw;
+        width: /*200px;*/ 35vw;
         height: /*100px;*/ 12.5vh;
         margin-left: /*-150px;*/ -12.5vw;
     }
