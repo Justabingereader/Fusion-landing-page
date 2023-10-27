@@ -1,4 +1,4 @@
-@media (min-width: 1001px){
+@media (min-width: 1301px){
 body {
     margin: 0;
     background-color: #FFFFFF;
@@ -699,7 +699,26 @@ hr {
     letter-spacing: 15px;
 }
 }
-@media(max-width: 1000px){
+@media(max-width: 1300px){
+    .toggle {
+        display: block;
+        margin-left: -3vw; /* Remove negative margin */
+        padding-right: 45vw; /* Reduce padding */
+    }
+
+    .toggle p {
+        font-size: 10vw; /* Reduce font size */
+        text-align: center; /* Center the text */
+        margin-bottom: 0; /* Remove negative margin */
+        margin-right: -40vh;
+    }
+
+    .toggler {
+        display: block;
+        width: 100vw;
+        position: fixed;
+    }
+
     body {
         margin: 0;
         background-color: #FFFFFF;
@@ -708,12 +727,7 @@ hr {
     nav {
         display: none;
     }
-    .toggler {
-        display: block;
-        width: 100vw;
-        position: fixed;
-        margin-top: -5vh;
-    }
+    
     label {
         line-height: 8.75vh;
         font-size: 30px;
@@ -725,16 +739,8 @@ hr {
         padding-top: 10vh;
         width: 100vw;
     }
-    .toggle {
-        display: block;
-        margin-left: -6vw;
-        padding-right: 10vw;
-    }
-    .toggle p {
-        font-size: 10vw;
-        text-align: right;
-        margin-bottom: -1vh;
-    }
+    
+    
      a {
         text-decoration: none;
         list-style: none;
@@ -1124,6 +1130,7 @@ hr {
     }
     .team1-body p {
         color: #999999;
+        margin-bottom: 6vh;
     }
     .team2 {
         display: flex;
@@ -1164,7 +1171,7 @@ hr {
         flex-wrap: wrap;
         background-color:white; 
         margin-top: /*10px;*/ 1.25vh;
-        width:80%;
+        width:80vw;
         padding-right: /*70px;*/ 5.833vw;
         margin-left: /*20px;*/ 1.667vw;
     }
@@ -1195,6 +1202,7 @@ hr {
     }
     .offers {
         color: #999999;
+        margin-bottom: -2vh;
     }
     .pricing-button {
         color: white;
@@ -1203,7 +1211,7 @@ hr {
         border-radius: 15px;
         margin-left: /*20px;*/ 1.667vw;
         margin-right: /*20px;*/ 1.667vw;
-        margin-top: /*25px;*/ 1vh;
+        margin-top: /*25px;*/ 0;
         height: /*30px;*/ 5.5vh;
         width: /*130px;*/ 18vw;
     }
@@ -1413,8 +1421,8 @@ hr {
         margin-top: /*100px;*/ 12.5vh;
     }
     #footer-image {
-        width: /*200px;*/ 35vw;
-        height: /*100px;*/ 12.5vh;
+        width: /*200px;*/ auto;
+        height: /*100px;*/ auto;
         margin-left: /*-150px;*/ -12.5vw;
     }
     .footer1 p {
@@ -1422,7 +1430,7 @@ hr {
         text-align:left ;
         width: 80%;
         margin-left: /*40px;*/ 3.333vw;
-        margin-bottom: /*25px;*/ 3.125vh;
+        margin-bottom: /*25px;*/ 6vh;
     }
     .footer2 {
         width: 80%;
