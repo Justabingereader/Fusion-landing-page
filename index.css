@@ -462,11 +462,9 @@ hr {
     flex-direction: row;
     background-color: rgba(223, 26, 102, 0.7);
     flex-wrap: wrap;
-    height: 500px;
+    height: fit-content;
     width:fit-content;
     padding: 10px;
-    margin-left: 20px;
-    padding-right: 50px;
 }
 .input1 {
     background-color: white;
@@ -566,7 +564,7 @@ hr {
 }
 .contact-container {
     background-color: rgb(240, 240, 240);;
-    height: 600px;
+    height: fit-content;
     width: fit-content;
     margin-left: 20px;
     padding-right: 60px;
@@ -577,9 +575,10 @@ hr {
     margin-bottom: 1px;
 }
 .map-image {
-    width: 400px;
-    height: 300px;
+    width: auto;
+    height: auto;
     margin-left: 100px;
+    padding: 2vh 2vw;
 }
 .container9 {
     display: flex;
