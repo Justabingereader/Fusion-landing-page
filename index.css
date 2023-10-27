@@ -1,4 +1,4 @@
-@media (min-width: 1301px){
+@media (min-width: 1351px){
 body {
     margin: 0;
     background-color: #FFFFFF;
@@ -699,7 +699,7 @@ hr {
     letter-spacing: 15px;
 }
 }
-@media(max-width: 1300px){
+@media(max-width: 1350px){
     .toggle {
         display: block;
         margin-left: -3vw; /* Remove negative margin */
@@ -710,7 +710,8 @@ hr {
         font-size: 10vw; /* Reduce font size */
         text-align: center; /* Center the text */
         margin-bottom: 0; /* Remove negative margin */
-        margin-right: -40vh;
+        margin-right: -30vh;
+        margin-top: 2vh;
     }
 
     .toggler {
@@ -780,13 +781,13 @@ hr {
     .container1 h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        font-size: /*50px;*/ 12vw;
+        font-size: /*50px;*/ 6vw;
     }
     .container1 p {
         color: #999999;
         margin-left: /*20px; */ 1.67vh;
         line-height: /*2;*/ 7.16667vw;
-        font-size: 5.1667vw;
+        font-size: 4vw;
         width: 80vw;
     }
     .main-head {
