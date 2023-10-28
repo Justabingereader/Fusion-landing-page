@@ -774,11 +774,10 @@ hr {
         font-size: 4vw;
     }
     .content {
-        margin: 0 1vw;
-        margin-bottom: -13vh;
+        margin-bottom: -6vh;
         display: block;
         width: 100vw;
-        height: 10vh;
+        height: fit-content;
         padding-top: 2vh;
         background-color: white;
         border-top: 1px solid #cccccc;
