@@ -774,7 +774,6 @@ hr {
         font-size: 4vw;
     }
     .content {
-        margin-bottom: -6vh;
         display: block;
         width: 100vw;
         height: fit-content;
