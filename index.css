@@ -771,7 +771,8 @@ hr {
         list-style: none;
         color: black;
         margin-left: 40vw;
-        font-size: 14vw;
+        font-size: 4vw;
+        margin-bottom: -40vh;
     }
     .content {
         margin: 0 1vw;
