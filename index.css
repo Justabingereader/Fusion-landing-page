@@ -776,6 +776,7 @@ hr {
     .content {
         margin-left: 1vw;
         margin-right: 1vw;
+        margin-bottom: -6vh;
         display: block;
         width: 100vw;
         height: 10vh;
